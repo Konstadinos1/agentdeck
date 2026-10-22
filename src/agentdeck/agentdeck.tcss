@@ -1,0 +1,52 @@
+#system-bar {
+    height: 2;
+    padding: 0 1;
+    background: $boost;
+}
+
+#process-table {
+    height: 1fr;
+}
+
+#process-detail {
+    height: 3;
+    padding: 0 1;
+    background: $panel;
+    color: $text;
+}
+
+#session-table, #usage-table {
+    height: 1fr;
+}
+
+#usage-note {
+    height: 2;
+    padding: 0 1;
+}
+
+ConfirmScreen {
+    align: center middle;
+}
+
+#confirm-dialog {
+    width: 64;
+    height: auto;
+    padding: 1 2;
+    border: thick $error;
+    background: $surface;
+}
+
+#confirm-question {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#confirm-buttons {
+    width: 100%;
+    height: auto;
+    align: center middle;
+}
+
+#confirm-buttons Button {
+    margin: 0 1;
+}

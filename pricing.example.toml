@@ -1,0 +1,21 @@
+# Copy to ~/.config/agentdeck/pricing.toml and fill in CURRENT prices from each
+# provider's official pricing page. Units: USD per 1,000,000 tokens.
+#
+# Keys match model names by exact name first, then by longest prefix, so
+# "claude-opus-5" also covers "claude-opus-5-20261001".
+#
+# Hermes and OpenClaw record their own cost per session; agentdeck shows those
+# directly and only uses this file for Claude Code and Codex sessions.
+#
+# The numbers below are PLACEHOLDERS (0.0), not real prices.
+
+[models."claude-opus-5"]
+input = 0.0
+output = 0.0
+cache_read = 0.0
+cache_write = 0.0
+
+[models."gpt-6"]
+input = 0.0
+output = 0.0
+cache_read = 0.0
